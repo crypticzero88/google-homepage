@@ -5,6 +5,7 @@ body {
 
 a:link {
     text-decoration: none
+    
 }
 
 a:visited {
@@ -19,10 +20,29 @@ a:active {
     text-decoration: none
 }
 
+#left {
+    float: left;
+    padding: 10px;
+}
+
+#right {
+    float: right;
+    padding: 10px;
+}
+
+#center {
+    padding: 30%;
+}
+
+#query {
+    width: 500px;
+    height: 45px;
+}
+
 #googlePic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+object-fit: none;  
+object-position: initial;
 }
 
 #leaf {
@@ -35,4 +55,16 @@ footer {
     bottom: 0px;
     width: 100%;
     text-align: center;
+}
+
+#circle {
+    border-radius: 50%;
+    float: right;
+}
+
+#circle2 {
+    background: #c0c5ce;
+    width: 3.4%;
+    border-radius: 50%;
+    float: right;
 }
