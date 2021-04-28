@@ -1,0 +1,38 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;  
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a:active {
+    text-decoration: none
+}
+
+#googlePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#leaf {
+    width: 1.3%;
+}
+
+footer {
+    background: #c0c5ce;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
